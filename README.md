@@ -191,8 +191,6 @@ This three-stage approach provides clear separation of concerns, making the code
 
 ## Resources
 
-### Classic References
-
 - **GNU Bash Manual**: [https://www.gnu.org/software/bash/manual/](https://www.gnu.org/software/bash/manual/) - Comprehensive reference for shell behavior and POSIX standards
 - **POSIX Shell Command Language**: IEEE Std 1003.1 - Standard specification for shell behavior
 - **Advanced Programming in the UNIX Environment** (W. Richard Stevens) - Essential reference for system programming, fork/exec, signals, and pipes
@@ -200,19 +198,4 @@ This three-stage approach provides clear separation of concerns, making the code
 - **GNU Readline Library Documentation**: [https://tiswww.cwru.edu/php/chet/readline/rltop.html](https://tiswww.cwru.edu/php/chet/readline/rltop.html) - API reference for readline integration
 - **42 Network Resources**: Intra documentation on minishell project requirements and specifications
 
-### AI Usage Description
-
-AI tools were used in the following aspects of this project:
-
-- **Code Structure and Architecture**: AI was consulted for understanding best practices in shell implementation architecture, particularly for organizing the tokenization-parsing-execution pipeline and structuring data types (tokens, commands, parser structures).
-
-- **Algorithm Design**: AI assistance was used to discuss and refine the three-stage processing algorithm, especially for understanding trade-offs between different parsing approaches (recursive descent vs. table-driven parsers) and pipeline execution strategies.
-
-- **Debugging Assistance**: When encountering memory leaks or segmentation faults, AI tools were used to help identify potential issues in memory management, particularly in complex scenarios involving token lists, command structures, and environment variable arrays.
-
-- **Documentation**: AI was used to help structure and write comprehensive documentation, including this README file, ensuring clarity and completeness in explaining the project's architecture and implementation details.
-
-- **Code Review and Optimization**: AI assistance was utilized to review code for potential improvements, particularly in error handling patterns, memory management practices, and code organization.
-
-**Parts of the project NOT assisted by AI**: The core implementation logic, specific function implementations, debugging process, testing strategies, and the actual writing and debugging of the code were done manually by the project contributors.
 
